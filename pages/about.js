@@ -1,11 +1,9 @@
-import Head from "next/head";
+import Meta from "../compos/Meta";
 
 const about = () => {
   return (
     <div>
-      <Head>
-        <title>Traversy next | about</title>
-      </Head>
+      <Meta />
       <h1>about page</h1>
     </div>
   );

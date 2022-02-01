@@ -1,13 +1,11 @@
-import Head from "next/head";
 import ArticlesList from "../compos/ArticlesList";
 import { server } from "../config/index";
+import Meta from "../compos/Meta";
 
 export default function Home({ articles }) {
   return (
     <div>
-      <Head>
-        <title>Traversy next</title>
-      </Head>
+      <Meta />
       <h1>Welcome to the next application</h1>
       <ArticlesList articles={articles} />
     </div>
